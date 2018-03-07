@@ -2,7 +2,7 @@
 /*            height: 100%;
     width: 100%;
     position: relative;
-    background:url('../../static/img/bg.jpg') no-repeat center ;
+    background:url('/static/img/bg.jpg') no-repeat center ;
     -webkit-background-size: cover;
     background-size: cover;*/
 }
@@ -15,7 +15,7 @@
     width: 100%;
     font-family: "Microsoft Yahei";
     position: absolute;
-    background:url('../../static/img/bg.jpg') no-repeat center ;
+    background:url('/static/img/bg.jpg') no-repeat center ;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -29,12 +29,12 @@
 .continer .bg1{
 /*    height: 1080px;
     width: 1920px;*/
-    height: 100%;
+    /* height: 100%;
     width: 100%;
     position: absolute;
-    background:url('../../static/img/bg1.png') no-repeat;
+    background:url('/static/img/bg1.png') no-repeat;
     -webkit-background-size: 100% 100%;
-    background-size: cover;
+    background-size: cover; */
 }
 .continer .bg2{
     position: absolute;
@@ -47,25 +47,25 @@
 .continer .bg2 .bg2-1{
 /*    height: 1080px;
     width: 1920px;*/
-    height: 100%;
+    /* height: 100%;
     width: 100%;
     position: absolute;
-    background:url('../../static/img/bg2.png') no-repeat;
+    background:url('/static/img/bg2.png') no-repeat;
     -webkit-background-size: 100% 100%;
     background-size: 100% 100%;
-    background-attachment: fixed;
+    background-attachment: fixed; */
 /*    -webkit-animation: 10s rowup linear infinite normal;
     animation: 10s rowup linear infinite normal;*/
 
 }
-.continer .bg {
+/* .continer .bg {
     height: 100%;
     width: 100%;
     position: absolute;
-    background:url('../../static/img/bg.jpg') no-repeat center ;
+    background:url('/static/img/bg.jpg') no-repeat center ;
     -webkit-background-size: cover;
     background-size: cover;
-}
+} */
 
 .continer .loginContiner{
     height: 420px;;
@@ -79,14 +79,14 @@
     color: white;
     padding-top: 30px;
 }
-.loginContiner .logo{
+/* .loginContiner .logo{
     height: 69px;
     width: 168px;
     position: relative;
-    background:url('../../static/img/logo.png') no-repeat;
+    background:url('/static/img/logo.png') no-repeat;
     background-size: 168px 69px;
     margin: 0 auto;
-}
+} */
 .loginContiner .loginTitle{
     font-size:30px;
     line-height:60px;
@@ -100,14 +100,14 @@
     margin-top: 10px;
     height: 56px;
     width: 329px;
-    background:url('../../static/img/shurukuang.png') no-repeat;
+    background:url('/static/img/shurukuang.png') no-repeat;
     -webkit-background-size: 100% 100%;
     background-size: 100% 100%;
 }
 .shuru .icon{
     height: 19px;
     width: 19px;
-    background:url('../../static/img/yonghuming.png') no-repeat;
+    background:url('/static/img/yonghuming.png') no-repeat;
     -webkit-background-size: 100% 100%;
     background-size: 100% 100%;
     position: relative;
@@ -116,10 +116,10 @@
     margin-left: 19px;
 }
 .shuru .username{
-     background:url('../../static/img/yonghuming.png') no-repeat;
+     background:url('/static/img/yonghuming.png') no-repeat;
 }
 .shuru .password{
-     background:url('../../static/img/mima.png') no-repeat;
+     background:url('/static/img/mima.png') no-repeat;
 }
 .shuru input {
     height: 37px;
@@ -191,10 +191,10 @@ label::before {
     height: 30px;
     width: 30px;
     vertical-align: middle;
-    background:url('../../static/img/xuanze.png') no-repeat;
+    background:url('/static/img/xuanze.png') no-repeat;
 }
 input[type="checkbox"]:checked+label::before{
-    background:url('../../static/img/checked.png') no-repeat;
+    background:url('/static/img/checked.png') no-repeat;
 }
 .checkBox .CheckBoxIcon{
     height: 18px;

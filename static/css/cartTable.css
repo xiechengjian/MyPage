@@ -1,0 +1,27 @@
+/* .carTable{
+    .ivu-table-header{
+        .ivu-checkbox {
+            &:after {
+                content: "全选";
+            }
+        }
+    }
+} */
+.cartTable .ivu-table-header .ivu-checkbox:after{
+    content: "全选";
+}
+.cartTable .ivu-table-header .ivu-checkbox-inner{
+    top:2px;
+}
+.cartTable .demo-table-color td{
+   background-color: #fff4e8;
+ }
+.cartTable .ivu-checkbox-checked .ivu-checkbox-inner {
+    border-color: #fff;
+    background-color:#fff;
+}
+.cartTable .ivu-checkbox-checked .ivu-checkbox-inner:after{
+    /* border: 2px solid #000000; */
+        border-right-color: rgb(0, 0, 0);
+        border-bottom-color: rgb(0, 0, 0);
+}

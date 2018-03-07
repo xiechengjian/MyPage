@@ -1,0 +1,40 @@
+.menu .ivu-menu{
+    width: 155px;
+    padding-top: 60%;
+    /* padding-left: 10%; */
+}
+.menu a{
+    color: unset
+}
+.menu .ivu-menu-item-group-title{
+    padding-left: 10%;
+}
+.menu .ivu-menu-light.ivu-menu-vertical .ivu-menu-item{
+    padding-left: 15%
+}
+.menu .ivu-menu-item .quantity{
+    position: absolute;
+    /* top: 15%;
+    right: 50%; */
+    z-index: 3;
+    right: 20px;
+    top: -5px;
+    /* height: 11px; */
+    padding: 1px 2px;
+    border: 1px solid #b61d1d;
+    overflow: hidden;
+    color: #fff;
+    font: 11px/11px verdana;
+    text-align: center;
+    min-width: 11px;
+    _width: 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #cc6060;
+    background-image: -moz-linear-gradient(top,#cc6060,#b61d1d);
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,#cc6060),color-stop(1,#b61d1d));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cc6060', endColorstr='#b61d1d', GradientType='0');
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cc6060', endColorstr='#b61d1d');
+    background-image: linear-gradient(to bottom,#cc6060 0,#b61d1d 100%);
+}
