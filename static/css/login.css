@@ -15,7 +15,7 @@
     width: 100%;
     font-family: "Microsoft Yahei";
     position: absolute;
-    background:url('../img/bg.jpg') no-repeat center ;
+    background:url('http://cjxieoss.oss-cn-shenzhen.aliyuncs.com/bg.jpg') no-repeat center ;
     -webkit-background-size: cover;
     background-size: cover;
 }
